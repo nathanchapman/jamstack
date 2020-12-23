@@ -1,0 +1,5 @@
+.netlify
+build
+node_modules
+.vscode/settings.json
+generated

@@ -1,0 +1,25 @@
+overwrite: true
+schema: src/lambda/**/typeDefs.ts
+documents: src/client/**/*.graphql
+generates:
+  src/lambda/graphql/codegen.ts:
+    hooks:
+      afterOneFileWrite:
+        - prettier --write
+    plugins:
+      - typescript
+      - typescript-resolvers
+  src/client/codegen.ts:
+    hooks:
+      afterOneFileWrite:
+        - prettier --write
+    config:
+      withHooks: true
+      withComponent: false
+      withHOC: false
+      namingConvention:
+        enumValues: change-case#upperCase
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo

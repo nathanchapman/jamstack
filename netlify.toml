@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  functions = "build/lambda"
+  publish = "build"
+
+[dev]
+  framework = "#custom"
+  command = "npm run dev"
+  port = 4000
+  targetPort = 8080
