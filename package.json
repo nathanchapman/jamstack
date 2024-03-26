@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "JAMstack using Netlify + React + GraphQL + Apollo + TypeScript + Codegen",
   "license": "MIT",
-  "author": "Nathan Chapman <nathanchapman@utexas.edu> (http://nathanchapman.io)",
+  "author": "Nathan Chapman <nathanchapman@utexas.edu> (https://nathanchapman.dev)",
   "repository": "https://github.com/nathanchapman/jamstack.git",
   "bugs": "https://github.com/nathanchapman/jamstack/issues",
   "homepage": "https://github.com/nathanchapman/jamstack#readme",
